@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -19,13 +19,13 @@ requirements:
     - sysroot_linux-64 2.17  # [linux64]
   host:
     - jupyter-packaging >=0.7.9,<0.8
-    - jupyterlab >=3.0.0,<4
+    - jupyterlab >=3.0.0,<5
     - nodejs
     - python >=3.6
     - pip
     - setuptools >=40.8.0
   run:
-    - jupyterlab >=3.0.0,<4
+    - jupyterlab >=3.0.0,<5
     - python >=3.6
 
 test:
