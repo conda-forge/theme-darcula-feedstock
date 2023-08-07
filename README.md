@@ -1,11 +1,11 @@
-About theme-darcula
-===================
+About theme-darcula-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/theme-darcula-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/telamonian/theme-darcula
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/theme-darcula-feedstock/blob/main/LICENSE.txt)
 
 Summary: A handsome Darcula theme for Jupyterlab.
 
