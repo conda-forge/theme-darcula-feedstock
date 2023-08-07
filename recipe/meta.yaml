@@ -28,6 +28,7 @@ requirements:
     - python >=3.6
     - pip
     - setuptools >=40.8.0
+    - tree
   run:
     - jupyterlab >=3.0.0,<5
     - python >=3.6
