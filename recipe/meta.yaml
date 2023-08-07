@@ -15,6 +15,7 @@ build:
   number: 1
   script: |
     set -euxo pipefail
+    jlpm build
     tree -a ./
     {{ PYTHON }} -m pip install . -vv
 
